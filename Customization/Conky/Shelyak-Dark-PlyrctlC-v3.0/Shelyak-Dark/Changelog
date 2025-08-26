@@ -1,0 +1,50 @@
+Changelog
+------------------------------
+Shelyak - Conky Theme
+[ Leonis Themes Pack ] 
+
+by Closebox73
+
+Social
+X			: https://twitter.com/closebox73
+Discord		: https://discord.com/users/1115644269802311750
+Pling		: https://pling.com/u/closebox73x
+Mastodon	: https://mastodon.social/@closebox73
+------------------------------
+
+v3.0
+date : 18 Apr 2025
+-	Add line draw_blended in conky config due transparent image issue in Gnome & KDE
+-	New weather.sh v3.0
+-	Add Wind direction and text.lua script
+-	Move the position of some items from the widget
+-	Change main font from Abel to be Barlow
+-	Some minor change
+
+
+v2.3
+date : 04 Nov 2023
+-	Some minor change
+-	Add Playerctl variant for Shelyak Light 
+-	Add Fahrenheit variant for Shelyak Light 
+-	Little extra line in script
+
+
+v2.0
+date : 02 Apr 2023
+-	New weather.sh
+-	Add License
+-	Add Playerctl variant
+-	Add Fahrenheit variant
+
+
+v1.3
+date : 04 Jan 2023
+-	Add override_utf8_locale line 
+-	Little extra line in script
+-	Add Changelog file
+
+
+v1.0
+date : 26 Jun 2022
+-	Initial release

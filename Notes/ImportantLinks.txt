@@ -1,0 +1,14 @@
+#Link for Conky
+ https://www.pling.com/browse?cat=124&ord=latest
+
+# Link for Wallpaper site
+https://www.pling.com/s/Wallpapers/browse/
+
+# Wallpapers specifically for Debian
+https://www.pling.com/s/Wallpapers/browse?cat=303&ord=latest
+
+# GNOME GTK themes
+https://www.pling.com/browse?cat=366&ord=latest
+
+
+

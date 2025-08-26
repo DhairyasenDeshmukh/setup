@@ -1,0 +1,54 @@
+# SHORTCUT KEYS TO NAVIGATE IN GNOME / DEBIAN
+
+🪟️ WORKSPACE NAVIGATION
+Shortcut	                       Action
+_______________________________________________________________
+Super (Windows key)	               Open Activities overview
+Super + A	                       Show Applications
+Alt + Tab	                       Switch between windows
+`Alt + `` (above Tab)	               Switch between windows of the same app
+Super + Page Up / Page Down	       Switch workspace
+Ctrl + Alt + ⬅️ / ➡️	               Move between workspace
+Ctrl + Alt + Shift + ⬅️ / ➡️	       Move current window to another workspace
+Alt + F4	                       Close current window
+Super + H	                       Hide window (minimize)
+
+
+📂️ FILE MANAGER NAVIGATION
+
+Shortcut	        Action
+____________________________________________________
+Ctrl + N	        Open new file manager window
+Ctrl + T	        Open new tab
+Ctrl + W	        Close current tab
+Ctrl + L	        Focus location bar
+Alt + ↑ / ↓ / ← / →	Navigate folder hierarchy
+Ctrl + Shift + N	Create new folder
+Ctrl + H	        Toggle hidden files
+
+🖱️ TILING WINDOW
+
+Shortcut	Action
+_______________________________
+Super + ↑	Maximize window
+Super + ↓	Unmaximize / minimize window
+Super + ← / →	Tile window left/right
+
+🌐 TERMINAL AND WEB
+
+Shortcut	                  Action
+_______________________________________________
+Ctrl + Alt + T	                  Open Terminal
+Ctrl + Shift + T (in Terminal)	  Open new tab
+Ctrl + D (in Terminal)	          Close current terminal tab
+
+🧰 SYSTEM AND SETTINGS
+
+Shortcut	          Action
+__________________________________
+Alt + F2	         Run command dialog
+Ctrl + Alt + Del	 Show shutdown/restart dialog
+Super + L	         Lock screen
+Print Screen	         Take screenshot
+Shift + Print Screen	 Select area to screenshot
+Alt + Print Screen	 Screenshot current window

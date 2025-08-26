@@ -1,0 +1,1000 @@
+  998  cd LINUX/
+  999  ls
+ 1000  cd 'Section B'
+ 1001  ls
+ 1002  cd ..
+ 1003  ls
+ 1004  cd 'Section A'
+ 1005  ls
+ 1006  mv ConceptualQuestions.txt /home/dhairyasen/Workspace/NewGen-Assignments/LINUX/
+ 1007  ls
+ 1008  cd ..
+ 1009  ls
+ 1010  rm -r 'Section A' 'Section B'
+ 1011  ls
+ 1012  touch PracticalQuestions.txt
+ 1013  ls
+ 1014  cd ..
+ 1015  ls
+ 1016  tail -n 3 Workspace/GitPush.txt
+ 1017  cd ..
+ 1018  ls
+ 1019  tail GitPush.txt 
+ 1020  cd NewGen-Assignments/
+ 1021  git add
+ 1022  git add .
+ 1023  git commit -m "Organised"
+ 1024  git push origin main --force
+ 1025  cd LINUX/
+ 1026  open ConceptualQuestions.txt 
+ 1027  open PracticalQuestions.txt 
+ 1028  # hello
+ 1029  tail ConceptualQuestions.txt # This will give the last 10 lines of the file
+ 1030  clear
+ 1031  cd ..
+ 1032  cd trial
+ 1033  puthon3
+ 1034  python3
+ 1035  cd ..
+ 1036  cd NewGen-Assignments/
+ 1037  cd LINUX/
+ 1038  mkdir PRACTICALS
+ 1039  LS
+ 1040  ls
+ 1041  cd PRACTICALS/
+ 1042  clear
+ 1043  cd ..
+ 1044  rm -r PRACTICALS/
+ 1045  ls
+ 1046  cd /
+ 1047  cd home/dhairyasen
+ 1048  ls
+ 1049  ls -al
+ 1050  clear
+ 1051  mkdir OUTPUTS
+ 1052  LS
+ 1053  ls
+ 1054  cd OUTPUTS/
+ 1055  ls -r /home/dhairyasen/Worspace/Notes/'Linux Journey'
+ 1056  ls /home/dhairyasen/Workspace/Notes/Linux Journey/Grasshopper
+ 1057  ls /home/dhairyasen/Workspace/Notes/'Linux Journey'/Grasshopper
+ 1058  open CommandLine.txt TextFu.txt
+ 1059  open TextFu.txt
+ 1060  open /home/dhairyasen/Workspace/Notes/'Linux Journey'/Grasshopper/CommandLine.txt
+ 1061  /home/dhairyasen/Workspace/Notes/'Linux Journey'/Grasshopper/TextFu.txt
+ 1062  ls -l /home/dhairyasen/Workspace/Notes/'Linux Journey'/Grasshopper
+ 1063  open /home/dhairyasen/Workspace/Notes/'Linux Journey'/Grasshopper/TextFu.txt
+ 1064  cd /home/dhairyasen/Workspace/Notes/'Linux Journey'/Grasshopper
+ 1065  ls
+ 1066  chmod 400 CommandLine.txt 
+ 1067  ls -l CommandLine.txt 
+ 1068  open CommandLine.txt 
+ 1069  chmod 755 CommandLine.txt 
+ 1070  open CommandLine.txt 
+ 1071  sudo reboot
+ 1072  ls
+ 1073  cd Workspace/NewGen-Assignments/LINUX/
+ 1074  ls
+ 1075  open 'Linux Assignment.pdf' 
+ 1076  open PracticalQuestions.txt 
+ 1077  cd /home/dhairyasen/OUTPUTS/
+ 1078  killall conky
+ 1079  clear
+ 1080  touch sample.txt
+ 1081  clear
+ 1082  mv sample.txt q26_sample.txt
+ 1083  ls
+ 1084  rm q26_sample.txt 
+ 1085  ls
+ 1086  clear
+ 1087  touch q26_sample.txt
+ 1088  cat q26_sample.txt 
+ 1089  cat > q26_sample.txt 
+ 1090  cat q26_sample.txt 
+ 1091  mkdir data/raw/2023
+ 1092  mkdir /data/raw/2023
+ 1093  mkdir /data/raw/'2023'
+ 1094  mkdir -p /data/raw/2023
+ 1095  mkdir -p data/raw/2023
+ 1096  ls
+ 1097  ls -l | grep "data"
+ 1098  ls -l
+ 1099  cd /
+ 1100  ls
+ 1101  cd home
+ 1102  ls
+ 1103  ls -a
+ 1104  cd dhairyasen
+ 1105  ls
+ 1106  pwd
+ 1107  cp undefined.bak /tmp
+ 1108  ls -l /tmp | grep "undefined.bak"
+ 1109  ls
+ 1110  cd OUTPUTS/
+ 1111  touch q29_originalfile
+ 1112  mv q29_originalfile q29_renamedfile
+ 1113  ls
+ 1114  rm q29_renamedfile 
+ 1115  ls
+ 1116  touch q29_originalfile
+ 1117  ls
+ 1118  mv q29_originalfile q29_renamedfile
+ 1119  ls
+ 1120  cat --help
+ 1121  ls
+ 1122  cat -n q26_sample.txt 
+ 1123  ls
+ 1124  cp q26_sample.txt /home/dhairyasen/OUTPUTS/
+ 1125  ls
+ 1126  mv q26_sample.txt q26_sample_v1.txt
+ 1127  ls
+ 1128  touch q31_sample_v2.txt
+ 1129  ls
+ 1130  echo < q26_sample_v1.txt >q31_sample_v2.txt 
+ 1131  cat q31_sample_v2.txt 
+ 1132  echo < q26_sample_v1.txt > q31_sample_v2.txt
+ 1133  cat q31_sample_v2.txt 
+ 1134  nano q31_sample_v2.txt 
+ 1135  cat q31_sample_v2.txt 
+ 1136  cat < q26_sample_v1.txt > q31_sample_v2.txt 
+ 1137  cat q31_sample_v2.txt 
+ 1138  cat >> q31_sample_v2.txt 
+ 1139  cat q31_sample_v2.txt 
+ 1140  touch ToTheMoon.txt
+ 1141  nano ToTheMoon.txt 
+ 1142  less ToTheMoon.txt 
+ 1143  touch q32_headandtails_v1.txt
+ 1144  head ToTheMoon.txt 
+ 1145  head ToTheMoon.txt | cat >> q32_headandtails_v1.txt 
+ 1146  cat q32_headandtails_v1.txt 
+ 1147  nano q32_headandtails_v1.txt 
+ 1148  cat q32_headandtails_v1.txt 
+ 1149  cat -n 10 ToTheMoon.txt 
+ 1150  cat -10 ToTheMoon.txt 
+ 1151  head --help
+ 1152  clear
+ 1153  ls
+ 1154  head ToTheMoon.txt | echo >> q32_headandtails_v1.txt 
+ 1155  cat q32_headandtails_v1.txt 
+ 1156  head ToTheMoon.txt | cat>> q32_headandtails_v1.txt 
+ 1157  cat q32_headandtails_v1.txt 
+ 1158  tail -n 5 ToTheMoon.txt 
+ 1159  nano q32_headandtails_v1.txt 
+ 1160  tail -n 5 ToTheMoon.txt | cat >> q32_headandtails_v1.txt 
+ 1161  less q32_headandtails_v1.txt 
+ 1162  echo --help
+ 1163  truncate q32_headandtails_v1.txt 
+ 1164  truncate -s 0 q32_headandtails_v1.txt 
+ 1165  less q32_headandtails_v1.txt 
+ 1166  cat q32_headandtails_v1.txt 
+ 1167  cat >> q32_headandtails_v1.txt 
+ 1168  head ToTheMoon.txt && tail -n 5 ToTheMoon.txt | cat >> q32_headandtails_v1.txt 
+ 1169  cat q32_headandtails_v1.txt 
+ 1170  truncate -s 0 q32_headandtails_v1.txt 
+ 1171  (head ToTheMoon.txt && tail -n 5 ToTheMoon.txt) > q32_headandtails_v1.txt 
+ 1172  cat q32_headandtails_v1.txt 
+ 1173  head ToTheMoon.txt && tail -n 5 ToTheMoon.txt 
+ 1174  ls
+ 1175  touch q32_headandtails_v1.txtls
+ 1176  ls
+ 1177  cat > cyberpunk_data.csv << 'EOF'
+ 1178  Character,Role,Location,Cyberware,Reputation
+ 1179  V,Edgerunner,Night City,Sandevistan,9
+ 1180  Johnny Silverhand,Rockerboy,Afterlife,Silver Arm Prosthetic,10
+ 1181  Jackie Welles,Nomad/Edgerunner,Heywood,Kerenzikov,8
+ 1182  Panam Palmer,Nomad,Badlands,Optical Camo,9
+ 1183  Judy Alvarez,BD Technician,Watson,Kiroshi Optics,8
+ 1184  River Ward,Detective,Santo Domingo,Reinforced Tendons,7
+ 1185  Takemura,Ex-Samurai,Westbrook,Subdermal Armor,8
+ 1186  Dexter DeShawn,Fixer,Watson,Reflex Tuner,6
+ 1187  Rogue Amendiares,Fixer,Afterlife,Neural Link,9
+ 1188  Alt Cunningham,NetRunner,The Net,Blackwall Interface,10
+ 1189  Evelyn Parker,BD Doll,Westbrook,Neural Interface Plug,7
+ 1190  Adam Smasher,Arasaka Enforcer,Arasaka Tower,Full Borg Conversion,10
+ 1191  Hanako Arasaka,Corporate,Arasaka Tower,Neural Processor,9
+ 1192  Saburo Arasaka,Corporate,Arasaka Tower,Lifespan Enhancer,10
+ 1193  Yorinobu Arasaka,Corporate Rebel,Arasaka Tower,Neural Interface,8
+ 1194  Kerry Eurodyne,Musician,Westbrook,Enhanced Vocal Cords,7
+ 1195  Placide,Voodoo Boy,Pacific,Neural Link,6
+ 1196  Brigitte,Voodoo Boy,Pacific,Deep Net Interface,8
+ 1197  Maelstrom Ganger,Gang Member,Watson,Cyber Optics,5
+ 1198  Tyger Claw,Gang Member,Westbrook,Nano Wire Blades,6
+ 1199  Valentinos Ganger,Gang Member,Heywood,Subdermal Grip,5
+ 1200  6th Street Ganger,Gang Member,Santo Domingo,Implanted Ammo Feed,5
+ 1201  Animals Brawler,Gang Member,Pacific,Bone Crushing Implants,7
+ 1202  Militech Soldier,Corporate Security,City Center,Smartgun Link,7
+ 1203  NetWatch Agent,Government,City Center,NetMonitor Suite,8
+ 1204  NCPD Officer,Police,City Center,Standard Cyber Optics,6
+ 1205  Fixer in Kabuki,Fixer,Watson,Holo Projector,6
+ 1206  Nomad Mechanic,Nomad,Badlands,Mechanical Arm,5
+ 1207  Ripperdoc,Vendor,Watson,Medical Cyberhand,7
+ 1208  MaxTac Operative,Police Elite,City Center,Sandevistan Mk. IV,9
+ 1209  EOF
+ 1210  less cyberpunk_data.csv 
+ 1211  cut -d',' -f2 cyberpunk_data.csv | less
+ 1212  cut -d',' -f2 cyberpunk_data.csv | cat > q33_csvfile_v1.txt
+ 1213  ls
+ 1214  less q33_csvfile_v1.txt 
+ 1215  sort --help
+ 1216  sort q33_csvfile_v1.txt 
+ 1217  sort cyberpunk_data.csv | less
+ 1218  ls
+ 1219  sort q33_csvfile_v1.txt | cat > q34_sortfile_v1.txt
+ 1220  ls -l
+ 1221  less q32_headandtails_v1.txtls 
+ 1222  rm q32_headandtails_v1.txtls 
+ 1223  ls
+ 1224  clear
+ 1225  ls -l
+ 1226  less q34_sortfile_v1.txt 
+ 1227  sort q33_csvfile_v1.txt | cat > q34_sortfile_v1.txt
+ 1228  sort less
+ 1229  sort man
+ 1230  man sort
+ 1231  sort -t',' -k3 cyberpunk_data.csv | cat > q35_sortfile_v2.txt
+ 1232  less q35_sortfile_v2.txt 
+ 1233  cd OUTPUTS/
+ 1234  cd ..
+ 1235  cd Workspace/
+ 1236  ls
+ 1237  cd Notes/
+ 1238  ls
+ 1239  touch ImportantCommands.txt
+ 1240  cat > ImportantCommands.txt 
+ 1241  df -h
+ 1242  cat >> ImportantCommands.txt 
+ 1243  free -h
+ 1244  cd ..
+ 1245  df -h /home/dhairyasen/Workspace
+ 1246  cd ..
+ 1247  cd OUTPUTS/
+ 1248  touch q39_memoryandspace_v1.txt
+ 1249  cat > q39_memoryandspace_v1.txt 
+ 1250  df -h | cat >> q39_memoryandspace_v1.txt 
+ 1251  cat >> q39_memoryandspace_v1.txt 
+ 1252  free -h | cat >> q39_memoryandspace_v1.txt 
+ 1253  less q39_memoryandspace_v1.txt 
+ 1254  du -sh
+ 1255  cd ..
+ 1256  cd Workspace/
+ 1257  du -sh
+ 1258  du -h
+ 1259  cd ..
+ 1260  cd OUTPUTS/
+ 1261  du -h
+ 1262  du -h /home/dhairyasen/OUTPUTS
+ 1263  df -h
+ 1264  df -h /home/dhairyasen/OUTPUTS
+ 1265  df -sh
+ 1266  du -h --max-depth=1 /home
+ 1267  du -h
+ 1268  du -ah
+ 1269  du 
+ 1270  du -h /home | less
+ 1271  du -h --max-depth=5 | less
+ 1272  du -h --max-depth=5 /home | less
+ 1273  du -h --max-depth=2 /home | less
+ 1274  du -h --max-depth=1 /home/dhairyasen | less
+ 1275  du -h --max-depth=1 /home/dhairyasen | less | sort -n
+ 1276  du -h --max-depth=1 /home/dhairyasen | sort -n | less
+ 1277  du -h --max-depth=1 /home
+ 1278  umask
+ 1279  umask 0011
+ 1280  umask
+ 1281  touch q42_umask_v1
+ 1282  ls -l
+ 1283  ls -l | grep "q42_umask_v1"
+ 1284  umask 0022
+ 1285  umask
+ 1286  ps
+ 1287  pwd
+ 1288  env
+ 1289  ls -l /
+ 1290  ls -l | grep "etc"
+ 1291  ls -l / | grep "etc"
+ 1292  history
+ 1293  clear
+ 1294  cd..
+ 1295  cd ..
+ 1296  exit
+ 1297  cd Notes/
+ 1298  nano ImportantCommands.txt 
+ 1299  exit
+ 1300  sudo poweroff
+ 1301  ls
+ 1302  cd Workspace/
+ 1303  ls
+ 1304  cd NewGen-Assignments/LINUX/
+ 1305  ls
+ 1306  open 'Linux Assignment.pdf' 
+ 1307  open PracticalQuestions.txt 
+ 1308  cd ..
+ 1309  cd Notes/
+ 1310  ls
+ 1311  nano ImportantCommands.txt 
+ 1312  cd /home/dhairaysen/OUPUTS
+ 1313  cd /home
+ 1314  cd dhairyasen
+ 1315  ls
+ 1316  cd OUTPUTS/
+ 1317  clear
+ 1318  pwd
+ 1319  printenv | cat > q47_env_v1.txt
+ 1320  less q47_env_v1.txt 
+ 1321  ls -l / | grep "etc"
+ 1322  cd ..
+ 1323  ls
+ 1324  cd ..
+ 1325  ls
+ 1326  cd ..
+ 1327  ls
+ 1328  man softlink
+ 1329  cd /home/dhairyasen/OUTPUTS/
+ 1330  touch python
+ 1331  ln -s /usr/bin/python3 python 
+ 1332  rm python 
+ 1333  ln -s /usr/bin/python3 python
+ 1334  ls
+ 1335  ls -l | grep "python"
+ 1336  umask
+ 1337  touch asd
+ 1338  ls -l
+ 1339  rm asd
+ 1340  mkdir /opt/data_eng
+ 1341  mkdir -p /opt/data_eng
+ 1342  mkdir -p /home/dhairyasen/OUTPUTS/opt/data_enf
+ 1343  ls
+ 1344  chmod 700 /opt
+ 1345  chmod 700 opt/
+ 1346  ls -l | grep "opt"
+ 1347  rmdir opt/
+ 1348  rmdir -f opt/
+ 1349  rm -f opt/
+ 1350  rmdir -f opt/
+ 1351  rmdir -rf opt/
+ 1352  rmdir -r opt/
+ 1353  rm -r opt/
+ 1354  ls
+ 1355  mkdir -p /home/dhairyasen/OUTPUTS/opt/data_eng
+ 1356  chmod 700 opt/
+ 1357  ls -l | grep "opt"
+ 1358  touch q55_students_v1.txt | cat >
+ 1359  ls
+ 1360  touch q55_students_v1.txt | echo
+ 1361  cat > q55_students_v1.txt 
+ 1362  cat > q55_students_v2.txt
+ 1363  echo "This file was created using echo command" > q55_students_v3.txt
+ 1364  cat q55_students_v1.txt q55_students_v2.txt q55_students_v3.txt 
+ 1365  cat < q55_students_v3.txt > q55_students_v4.txt
+ 1366  cat >> q55_students_v4.txt 
+ 1367  cat q55_students_v4.txt 
+ 1368  head /etc/passwd | cat > q57_etclines_v1.txt
+ 1369  less q57_etclines_v1.txt 
+ 1370  tail -n 15 /var/log/syslog | less
+ 1371  cd /var/log
+ 1372  ls
+ 1373  cd --help
+ 1374  cd -
+ 1375  tail -n 15 /var/log/boot.log | less
+ 1376  ls /var/log/
+ 1377  tail -n 15 /var/log/faillog | less
+ 1378  tail -n 15 /var/log/wtmp | less
+ 1379  tail -n 15 /var/log/fontconfig.log | less
+ 1380  tail -n 15 /var/log/alternatives.log | less
+ 1381  tail -n 15 /var/log/vboxadd-setup.log | less
+ 1382  tail -n 15 /var/log/fontconfig.log | less
+ 1383  tail -n 15 /var/log/fontconfig.log | cat > q58_tail_v1.txt
+ 1384  pwd
+ 1385  man find
+ 1386  find /var/log/ -type f -name "*.log" | less
+ 1387  find /var/log/ -type f -name "*.log" | cat > q61_findlog_v1.txt
+ 1388  sudo find /var/log/ -type f -name "*.log" | cat > q61_findlog_v1.txt
+ 1389  wc /etc/passwd
+ 1390  clear
+ 1391  ln -s /etc/passwd /tmp/passwdsoftlink
+ 1392  ls -l /tmp | grep "passwdsoftlink"
+ 1393  ln /etc/passwd /tmp/passwdhardlink
+ 1394  sudo ln /etc/passwd /tmp/passwdhardlink
+ 1395  ls -l /tmp | grep "passwdhardlink"
+ 1396  df -h
+ 1397  free--
+ 1398  free -h
+ 1399  df -h | cat > q68_diskspace_v2.txt
+ 1400  free -h | cat > q69_memory_v3.txt
+ 1401  clear
+ 1402  echo "This is file 1" > q73_file1.txt
+ 1403  echo "This is file 2" > q73_file2.txt
+ 1404  paste q73_file1.txt q73_file2.txt > q73_merged.txt
+ 1405  cat q73_merged.txt 
+ 1406  sort --help |less
+ 1407  sort -r q73_merged.txt | cat > q74_reversesort_v1.txt
+ 1408  cat q74_reversesort_v1.txt 
+ 1409  ls
+ 1410  rm q73_file1.txt q73_file2.txt q73_merged.txt q74_reversesort_v1.txt
+ 1411  ls
+ 1412  echo "Cyberware" > q73_file1.txt
+ 1413  echo "Weapons" > q73_file2.txt
+ 1414  paste q73_file1.txt q73_file2.txt > q73_merged.txt
+ 1415  NOTE: THERE WILL BE A FOLDER CREATED FOR ALL OUTPUTS OR PRACTICALS.
+ 1416  __________________________________________________________________________________________________
+ 1417  26.​Create a file named sample.txt, add three lines of text.
+ 1418  bash:
+ 1419  	dhairyasen@vbox:~/OUTPUTS$ touch q26_sample.txt
+ 1420  	dhairyasen@vbox:~/OUTPUTS$ cat > q26_sample.txt 
+ 1421  	This file was created using touch command
+ 1422  	This file is stored inside OUTPUTS folder
+ 1423  	Text in this file was added using cat command
+ 1424  	dhairyasen@vbox:~/OUTPUTS$ cat q26_sample.txt 
+ 1425  	This file was created using touch command
+ 1426  	This file is stored inside OUTPUTS folder
+ 1427  	Text in this file was added using cat command
+ 1428  27.​Create a directory structure: /data/raw/2023
+ 1429  bash:
+ 1430  	dhairyasen@vbox:~/OUTPUTS$ mkdir -p data/raw/2023
+ 1431  28.​Copy a file from /home/user to /tmp.
+ 1432  bash:
+ 1433  	dhairyasen@vbox:~$ pwd
+ 1434  output:
+ 1435  	/home/dhairyasen
+ 1436  bash:
+ 1437  	dhairyasen@vbox:~$ cp undefined.bak /tmp
+ 1438  	dhairyasen@vbox:~$ ls -l /tmp | grep "undefined.bak"
+ 1439  	-rw-r--r-- 1 dhairyasen dhairyasen 2397 Aug 16 21:34 undefined.bak
+ 1440  29.​Rename a file using the mv command.​
+ 1441  bash:
+ 1442  	dhairyasen@vbox:~/OUTPUTS$ touch q29_originalfile
+ 1443  	dhairyasen@vbox:~/OUTPUTS$ ls
+ 1444  output:
+ 1445  	data  q26_sample.txt  q29_originalfile
+ 1446  bash:
+ 1447  	dhairyasen@vbox:~/OUTPUTS$ mv q29_originalfile q29_renamedfile
+ 1448  	dhairyasen@vbox:~/OUTPUTS$ ls
+ 1449  output:
+ 1450  	data  q26_sample.txt  q29_renamedfile
+ 1451  30.​Display contents of a file with line numbers.​
+ 1452  bash:
+ 1453  	dhairyasen@vbox:~/OUTPUTS$ cat -n q26_sample.txt
+ 1454  output:
+ 1455  	1	This file was created using touch command
+ 1456  31.​Append a line to a file without opening it.
+ 1457  bash:
+ 1458  	dhairyasen@vbox:~/OUTPUTS$ cat >> q31_sample_v2.txt 
+ 1459  output:
+ 1460  	This line has been appended into this file
+ 1461  bash:
+ 1462  	dhairyasen@vbox:~/OUTPUTS$ cat q31_sample_v2.txt 
+ 1463  output:
+ 1464  	This file was created using touch command
+ 1465  	This file is stored inside OUTPUTS folder
+ 1466  	Text in this file was added using cat command
+ 1467  	This line has been appended into this file
+ 1468  32.​Show the first 10 lines and last 5 lines of a file.
+ 1469  bash:
+ 1470  	dhairyasen@vbox:~/OUTPUTS$ touch ToTheMoon.txt		# Creating a text file
+ 1471  	dhairyasen@vbox:~/OUTPUTS$ touch ToTheMoon.txt		# Adding text to the file
+ 1472  	dhairyasen@vbox:~/OUTPUTS$ touch q32_headandtails_v1.txt	# Creating file to store output
+ 1473  	(head ToTheMoon.txt && tail -n 5 ToTheMoon.txt) > q32_headandtails_v1.txt	# storing output in the file.
+ 1474  33.​Extract 2nd column from a CSV using cut.
+ 1475  bash:
+ 1476  	# Using a CSV file called cyberpunk_data.csv
+ 1477  	cut -d',' -f2 cyberpunk_data.csv | cat > q33_csvfile_v1.txt	# Storing the output in a file
+ 1478  34.​Sort a file alphabetically.​
+ 1479  bash:
+ 1480  	dhairyasen@vbox:~/OUTPUTS$ sort q33_csvfile_v1.txt | cat > q34_sortfile_v1.txt
+ 1481  	# Output stored in a seperate file.
+ 1482  35.​Sort a CSV file by column 3.​
+ 1483  bash:
+ 1484  	dhairyasen@vbox:~/OUTPUTS$ sort -t',' -k3 cyberpunk_data.csv | cat > q35_sortfile_v2.txt
+ 1485  	# Stored the output in a separate file
+ 1486  38.​Show disk usage of each directory under /home.​
+ 1487  bash:
+ 1488  	dhairyasen@vbox:~/OUTPUTS$ du -h --max-depth=1 /home
+ 1489  output:
+ 1490  	3.0G	/home/dhairyasen
+ 1491  	3.0G	/home
+ 1492  39.​Check available disk space and RAM in human-readable format.​
+ 1493  bash:
+ 1494  	dhairyasen@vbox:~/OUTPUTS$ touch q39_memoryandspace_v1.txt	# Create a file to store output
+ 1495  	dhairyasen@vbox:~/OUTPUTS$ df -h | cat >> q39_memoryandspace_v1.txt	# Store the disc space usage in the file.
+ 1496  	dhairyasen@vbox:~/OUTPUTS$ free -h | cat >> q39_memoryandspace_v1.txt	# Store the RAM usage in the file
+ 1497  42.​Add read and write permission to group and remove from others.
+ 1498  bash:
+ 1499  	dhairyasen@vbox:~/OUTPUTS$ umask
+ 1500  output:
+ 1501  	0022
+ 1502  bash:
+ 1503  	dhairyasen@vbox:~/OUTPUTS$ umask 0011		# Changing the default permissions
+ 1504  	dhairyasen@vbox:~/OUTPUTS$ umask
+ 1505  output:
+ 1506  	0011
+ 1507  bash:
+ 1508  	dhairyasen@vbox:~/OUTPUTS$ touch q42_umask_v1
+ 1509  	dhairyasen@vbox:~/OUTPUTS$ ls -l | grep "q42_umask_v1"
+ 1510  output:
+ 1511  	-rw-rw-rw- 1 dhairyasen dhairyasen    0 Aug 17 00:48 q42_umask_v1 # Permissions are changed
+ 1512  47.​Display current path and all environment variables.
+ 1513  a. Display current Directory:
+ 1514  bash:
+ 1515  	dhairyasen@vbox:~/OUTPUTS$ pwd
+ 1516  output:
+ 1517  	/home/dhairyasen/OUTPUTS
+ 1518  b. All environment variables:
+ 1519  bash:
+ 1520  	dhairyasen@vbox:~/OUTPUTS$ printenv | cat > q47_env_v1.txt	# Creates a file to store the output
+ 1521  48.​Check permission details of all files in /etc.
+ 1522  bash:
+ 1523  	dhairyasen@vbox:~/OUTPUTS$ ls -l / | grep "etc"
+ 1524  output:
+ 1525  	drwxr-xr-x 128 root root 12288 Aug 17 09:48 etc
+ 1526  ​49.​Create a symbolic link to /usr/bin/python3 as python.
+ 1527  bash:
+ 1528  	dhairyasen@vbox:~/OUTPUTS$ ln -s /usr/bin/python3 python
+ 1529  	dhairyasen@vbox:~/OUTPUTS$ ls -l | grep "python"
+ 1530  output:
+ 1531  	lrwxrwxrwx 1 dhairyasen dhairyasen   16 Aug 17 10:10 python -> /usr/bin/python3
+ 1532  53.​Create a directory /opt/data_eng and set full permissions only for the owner.​
+ 1533  bash:
+ 1534  	dhairyasen@vbox:~/OUTPUTS$ mkdir -p /home/dhairyasen/OUTPUTS/opt/data_eng
+ 1535  	dhairyasen@vbox:~/OUTPUTS$ chmod 700 opt/
+ 1536  	dhairyasen@vbox:~/OUTPUTS$ ls -l | grep "opt"
+ 1537  output:
+ 1538  	drwx------ 3 dhairyasen dhairyasen 4096 Aug 17 10:20 opt
+ 1539  55.​Create an empty file named students.txt using three different methods.​
+ 1540  bash:
+ 1541  	dhairyasen@vbox:~/OUTPUTS$ touch q55_students_v1.txt
+ 1542  	dhairyasen@vbox:~/OUTPUTS$ cat > q55_students_v1.txt 
+ 1543  	This file was created using touch command 
+ 1544  	dhairyasen@vbox:~/OUTPUTS$ cat > q55_students_v2.txt
+ 1545  	This file was created using cat command
+ 1546  	dhairyasen@vbox:~/OUTPUTS$ echo "This file was created using echo command" > q55_students_v3.txt
+ 1547  	dhairyasen@vbox:~/OUTPUTS$ cat q55_students_v1.txt q55_students_v2.txt q55_students_v3.txt 
+ 1548  output:
+ 1549  	This file was created using touch command
+ 1550  	This file was created using cat command
+ 1551  	This file was created using echo command
+ 1552  56.​Append the text "Linux Assignment" to students.txt without overwriting the file.
+ 1553  bash:
+ 1554  	dhairyasen@vbox:~/OUTPUTS$ cat < q55_students_v3.txt > q55_students_v4.txt
+ 1555  	dhairyasen@vbox:~/OUTPUTS$ cat >> q55_students_v4.txt		# Append command
+ 1556  	Linux Assignment
+ 1557  	dhairyasen@vbox:~/OUTPUTS$ cat q55_students_v4.txt 
+ 1558  output:
+ 1559  	This file was created using echo command
+ 1560  	Linux Assignment
+ 1561  57.​Display the first 10 lines of /etc/passwd.​
+ 1562  bash:
+ 1563  	dhairyasen@vbox:~/OUTPUTS$ head /etc/passwd | cat > q57_etclines_v1.txt
+ 1564  	# adding the 10 lines of /etc/passwd into a separate file
+ 1565  58.​Display the last 15 lines of /var/log/syslog (or any available log file)
+ 1566  bash:
+ 1567  	dhairyasen@vbox:~/OUTPUTS$ tail -n 15 /var/log/fontconfig.log | cat > q58_tail_v1.txt
+ 1568  	# Stores the last 15 lines in separate file
+ 1569  	
+ 1570  59.​Find the current working directory of the logged-in user.​
+ 1571  bash:
+ 1572  	dhairyasen@vbox:~/OUTPUTS$ pwd
+ 1573  output:
+ 1574  	/home/dhairyasen/OUTPUTS
+ 1575  61.​Find all .log files inside /var/log recursively.​
+ 1576  bash:
+ 1577  	dhairyasen@vbox:~/OUTPUTS$ sudo find /var/log/ -type f -name "*.log" | cat > q61_findlog_v1.txt
+ 1578  	# Stores the find output into separate file.
+ 1579  62.​Display the number of lines, words, and characters in /etc/passwd.​
+ 1580  bash:
+ 1581  	dhairyasen@vbox:~/OUTPUTS$ wc /etc/passwd
+ 1582  64.​Create a symbolic link for /etc/passwd inside /tmp directory.​
+ 1583  bash:
+ 1584  	dhairyasen@vbox:~/OUTPUTS$ ln -s /etc/passwd /tmp/passwdsoftlink
+ 1585  	dhairyasen@vbox:~/OUTPUTS$ ls -l /tmp | grep "passwdsoftlink"
+ 1586  output:
+ 1587  	lrwxrwxrwx 1 dhairyasen dhairyasen   11 Aug 17 11:36 passwdsoftlink -> /etc/passwd
+ 1588  65.​Create a hard link for /etc/passwd inside /tmp directory.​
+ 1589  bash:
+ 1590  	dhairyasen@vbox:~/OUTPUTS$ sudo ln /etc/passwd /tmp/passwdhardlink
+ 1591  	dhairyasen@vbox:~/OUTPUTS$ ls -l /tmp | grep "passwdhardlink"
+ 1592  output:
+ 1593  	-rw-r--r-- 2 root       root       2324 Aug 16 11:01 passwdhardlink
+ 1594  	
+ 1595  68.​Check the available disk space on the system.​
+ 1596  bash:
+ 1597  	dhairyasen@vbox:~/OUTPUTS$ df -h | cat > q68_diskspace_v2.txt
+ 1598  	
+ 1599  69.​Check the memory usage of the system.​
+ 1600  bash:
+ 1601  	dhairyasen@vbox:~/OUTPUTS$ free -h | cat > q69_memory_v3.txt
+ 1602  	
+ 1603  73.​Create a file named file1.txt and file2.txt and merge them into merged.txt.
+ 1604  bash:
+ 1605  	dhairyasen@vbox:~/OUTPUTS$ echo "Cyberware" > q73_file1.txt
+ 1606  	dhairyasen@vbox:~/OUTPUTS$ echo "Weapons" > q73_file2.txt
+ 1607  	dhairyasen@vbox:~/OUTPUTS$ paste q73_file1.txt q73_file2.txt > q73_merged.txt
+ 1608  	dhairyasen@vbox:~/OUTPUTS$ cat q73_merged.txt 
+ 1609  Output:
+ 1610  	Cyberware	Weapons
+ 1611  	
+ 1612  74.​Sort the contents of merged.txt in descending order.​
+ 1613  75.​Display only the unique lines from merged.txt.
+ 1614  cat q73_merged.txt
+ 1615  ls
+ 1616  cat q73_file1.txt
+ 1617  rm q73_file1.txt q73_file2.txt q73_merged.txt
+ 1618  ls
+ 1619  echo "Cyberware" > q73_file1.txt
+ 1620  cat q73_file1.txt 
+ 1621  echo "Weapons" > q73_file2.txt
+ 1622  cat q73_file2.txt
+ 1623  cat >> q73_file1.txt
+ 1624  cat >> q73_file2.txt
+ 1625  paste q73_file1.txt q73_file2.txt > q73_merged.txt
+ 1626  cat q73_merged.txt
+ 1627  sort -r q73_merged.txt
+ 1628  sort -r q73_merged.txt | cat > q74_reversesort_v1.txt
+ 1629  less q74_reversesort_v1.txt 
+ 1630  uniq q73_merged.txt
+ 1631  mv q73_merged.txt q73_merged_v1.txt 
+ 1632  uniq q73_merged_v1.txt  q75_merged_v2.txt
+ 1633  ls
+ 1634  mv q73_merged_v2.txt q73_merged_v1.txt 
+ 1635  cat q75_merged_v2.txt 
+ 1636  ls /var/log
+ 1637  less /var/log/lastlog
+ 1638  less /var/log/preload.log
+ 1639  less /var/log/btmp
+ 1640  less /var/log/fontconfig.log 
+ 1641  less /var/log/dpkg.log
+ 1642  ls -a /var/log
+ 1643  cd syslog
+ 1644  cat /var/log/syslog
+ 1645  cd /var/log/journal/
+ 1646  ls
+ 1647  cd dab95fb704414b54bcfe7d0505454d41/
+ 1648  ls
+ 1649  less user-1000.journal 
+ 1650  cd -
+ 1651  cd /home/dhairyasen/OUTPUTS/
+ 1652  ls
+ 1653  touch q36_logfile_v1.log | nano
+ 1654  touch q36_logfile_v1.log 
+ 1655  nano q36_logfile_v1.log 
+ 1656  less q36_logfile_v1.log 
+ 1657  sed 's/ERROR/WARNING/g' q36_logfile_v1.log > q36_logfile_v2.log 
+ 1658  less q36_logfile_v2.log 
+ 1659  clear
+ 1660  find /var/log -type f -name "*.log" | less
+ 1661  sudo find /var/log -type f -name "*.log" | less
+ 1662  find /var/log -type f -name "*.log" | cat > q37_findlogs_v1.txt
+ 1663  cat q37_findlogs_v1.txt 
+ 1664  ls
+ 1665  cd data
+ 1666  ls
+ 1667  cd raw
+ 1668  ls
+ 1669  cd 2023
+ 1670  cd ..
+ 1671  less /home/dhairyasen/Workspace/Notes/Linux\ Journey/Grasshopper/CommandLine.txt 
+ 1672  cp *.txt /home/dhairyasen/OUTPUTS/data/raw/2023
+ 1673  cd -
+ 1674  cd raw
+ 1675  cd 2023
+ 1676  ls
+ 1677  cd ..
+ 1678  tar -cvf q40_2023.tar /home/dhairyasen/OUTPUTS/data/raw/2023/
+ 1679  ls
+ 1680  mkdir q40_extract2023
+ 1681  cd q40_extract2023/
+ 1682  cd ..
+ 1683  cp q40_2023.tar /home/dhairyasen/OUTPUTS/q40_extract2023/
+ 1684  cd q40_extract2023/
+ 1685  rm q40_2023.tar 
+ 1686  cd ..
+ 1687  tar -xvf q40_2023.tar -C /home/dhairyasen/OUTPUTS/q40_extract2023
+ 1688  cd q40_extract2023/
+ 1689  ls
+ 1690  ls -r
+ 1691  ls -p
+ 1692  ls man
+ 1693  man ls
+ 1694  ls
+ 1695  cd home
+ 1696  ls
+ 1697  cd dhairyasen
+ 1698  ls
+ 1699  cd Outputs
+ 1700  cd OUTPUTS/
+ 1701  ls
+ 1702  cd data/
+ 1703  ls
+ 1704  cd raw
+ 1705  ls
+ 1706  cd 2023
+ 1707  ls
+ 1708  cd /home/dhairyasen/OUTPUTS/
+ 1709  cd q40_extract2023/
+ 1710  rm -rf home/
+ 1711  ls
+ 1712  cd ..
+ 1713  ls
+ 1714  tar -xvf q40_2023.tar -C /q40_extract2023
+ 1715  rm q40_2023.tar 
+ 1716  cd data
+ 1717  cd raw
+ 1718  tar -cvf q40_2023.tar /2023
+ 1719  tar -cvf q40_2023.tar 2023
+ 1720  ls
+ 1721  cp q40_2023.tar /home/dhairyasen/OUTPUTS
+ 1722  cd ..
+ 1723  ls
+ 1724  tar -xvf q40_2023.tar -C /home/dhairyasen/OUTPUTS/q40_extract2023
+ 1725  cd q40_extract2023/
+ 1726  ls
+ 1727  cd 2023/
+ 1728  ls
+ 1729  cd ..
+ 1730  ls
+ 1731  ls -t
+ 1732  ls -u
+ 1733  ls
+ 1734  cd data
+ 1735  cd raw
+ 1736  cd ..
+ 1737  cd data/raw
+ 1738  ls
+ 1739  zip -r q41_2023.zip 2023
+ 1740  clear
+ 1741  sudo apt update
+ 1742  sudo apt install zip -y
+ 1743  sudo apt install unzip -y
+ 1744  ls
+ 1745  cp q41_2023.zip /home/dhairyasen/OUTPUTS/
+ 1746  cd ..
+ 1747  ls
+ 1748  mkdir q41_unzip2023
+ 1749  unzip q41_2023.zip /home/dhairyasen/OUTPUTS/q41_unzip2023/
+ 1750  unzip q41_2023.zip -d /home/dhairyasen/OUTPUTS/q41_unzip2023/
+ 1751  cd q41_unzip2023/
+ 1752  ls
+ 1753  cd 2023/
+ 1754  ls
+ 1755  cd ..
+ 1756  clear
+ 1757  ps -u $USER
+ 1758  ps -u $USER | cat > q44_processes_v1.txt
+ 1759  ls
+ 1760  less q36_logfile_v1.log 
+ 1761  cat > q45_failed.log
+ 1762  grep -i "failed" q45_failed.log | wc -l
+ 1763  ls
+ 1764  ls | grep "student"
+ 1765  less q55_students_v4.txt
+ 1766  touch q66_students_v5.txt
+ 1767  zip q66_studentszip.zip q66_students_v5.txt 
+ 1768  ls | grep "student"
+ 1769  mkdir q66_unzipstudents
+ 1770  unzip q66_studentszip.zip /home/dhairyasen/OUTPUTS/q66_unzipstudents/
+ 1771  unzip q66_studentszip.zip -d /home/dhairyasen/OUTPUTS/q66_unzipstudents/
+ 1772  cd q66_unzipstudents/
+ 1773  ls
+ 1774  cd ..
+ 1775  tar -cvf q67_etc.tar /etc
+ 1776  ls
+ 1777  ls -l | grep "q67_etc.tar"
+ 1778  du -sh | grep "q67_etc.tar"
+ 1779  du -sh
+ 1780  du -h
+ 1781  du -h | less
+ 1782  du -ah | less
+ 1783  du -ah | sort | less
+ 1784  ls 
+ 1785  clear
+ 1786  ps aux --sort=-%mem | less
+ 1787  ps aux --sort=-%mem | cat > q70_sortprocess_v1.txt
+ 1788  ps aux | less
+ 1789  ps aux | man
+ 1790  ps aux | more
+ 1791  clear
+ 1792  ps aux | less
+ 1793  ps aux | grep "dhairya" | less
+ 1794  kill 18124
+ 1795  ps aux | grep "dhairya" | less
+ 1796  ls
+ 1797  cd opt
+ 1798  ls
+ 1799  cat > q63_testfile_v1
+ 1800  sed -i 's/root/admin/g' q63_testfile_v1 > q63_testfile_v2 
+ 1801  cat q63_testfile_v2
+ 1802  nano q63_testfile_v2
+ 1803  less q63_testfile_v2
+ 1804  rm q63_testfile_v2
+ 1805  rm q63_testfile_v1
+ 1806  cat > q63_testfile_v1.txt
+ 1807  less q63_testfile_v1.txt 
+ 1808  sed -i 's/root/admin/g' q63_testfile_v1.txt > q63_testfile_v2.txt 
+ 1809  less q63_testfile_v2.txt 
+ 1810  cat q63_testfile_v2.txt 
+ 1811  cat q63_testfile_v1.txt 
+ 1812  rm q63_testfile_v2.txt 
+ 1813  ls
+ 1814  mv q63_testfile_v1.txt /home/dhairyasen/OUTPUTS/
+ 1815  cd ..
+ 1816  ls
+ 1817  sed -i 's/admin/root/g' q63_testfile_v1.txt 
+ 1818  less q63_testfile_v1.txt 
+ 1819  sed -i 's/root/admin/g' q63_testfile_v1.txt | cat > q63_testfile_v2.txt 
+ 1820  less q63_testfile_v2.txt 
+ 1821  less q63_testfile_v1.txt 
+ 1822  sed -i 's/admin/root/g' q63_testfile_v1.txt 
+ 1823  less q63_testfile_v1.txt 
+ 1824  ls
+ 1825  sed 's/root/admin/g' q63_testfile_v1.txt | cat > q63_testfile_v2.txt 
+ 1826  less q63_testfile_v2.txt 
+ 1827  cat q63_testfile_v1.txt q63_testfile_v2.txt 
+ 1828  clear
+ 1829  crontab -e
+ 1830  crontab -l
+ 1831  crontab -e
+ 1832  crontab -l
+ 1833  ls -l | grep "*.log"
+ 1834  ls -l | grep ".log"
+ 1835  cat q72_cron_hello.log 
+ 1836  touch q46_backup.sh
+ 1837  nano q46_backup.sh 
+ 1838  chmod +x /home/dhairyasen/OUTPUTS/q46_backup.sh
+ 1839  q46_backup.sh
+ 1840  ls
+ 1841  run q46_backup.sh 
+ 1842  bash q46_backup.sh 
+ 1843  crontab -e
+ 1844  crontab -l
+ 1845  clear
+ 1846  sudo useradd -m -s /bin/bash data_eng_user
+ 1847  ls -l /home
+ 1848  sudo usermod -aG sudo data_eng_user
+ 1849  groups data_eng_user
+ 1850  sudo chown data_eng_user /home/dhairyasen/OUTPUTS/opt/data_eng
+ 1851  ls -l /home/dhairyasen/OUTPUTS/opt/
+ 1852  touch q43_onwergrp
+ 1853  sudo chown dataeng:engineers /home/dhairyasen/OUTPUTS/q43_onwergrp 
+ 1854  sudo useradd -m dataeng
+ 1855  sudo groupadd engineers
+ 1856  sudo chown dataeng:engineers /home/dhairyasen/OUTPUTS/q43_onwergrp
+ 1857  ls -l | grep "q43"
+ 1858  ls /home
+ 1859  sudo userdel -r dataeng 
+ 1860  sudo userdel -r data_eng_user 
+ 1861  ls /home
+ 1862  clear
+ 1863  history
+ 1864  clear
+ 1865  cd ..
+ 1866  mv --help
+ 1867  mv OUTPUTS/ /home/dhairyasen/Workspace/NewGen-Assignments/LINUX/
+ 1868  ls
+ 1869  cd /home/dhairyasen/Workspace/NewGen-Assignments/LINUX/
+ 1870  ls
+ 1871  cd outputs
+ 1872  cd OUTPUTS/
+ 1873  ls
+ 1874  cd ..
+ 1875  ls
+ 1876  cd LINUX/
+ 1877  open
+ 1878  ls
+ 1879  open PracticalQuestions.txt 
+ 1880  cd OUTPUTS/
+ 1881  pwd
+ 1882  cd ..
+ 1883  tail -n 3 /home/dhairyasen/Workspace/GitPush.txt 
+ 1884  git add .
+ 1885  git commit -m "Linux completed"
+ 1886  git push origin main --force
+ 1887  du -ah
+ 1888  clear
+ 1889  exit
+ 1890  sudo poweroff
+ 1891  cd Workspace/Notes/'Workspace/Notes/'Linux Journey'/
+ 1892  cat ~/.cache/weather.json
+ 1893  cd Workspace/Notes/
+ 1894  ls
+ 1895  cd Linux\ Journey/Grasshopper/
+ 1896  ls
+ 1897  ls -l
+ 1898  chmod 744 CommandLine.txt 
+ 1899  ls -l
+ 1900  chmod 644 CommandLine.txt 
+ 1901  ls -l
+ 1902  clear
+ 1903  touch AdvancedTextFu.txt
+ 1904  open AdvancedTextFu.txt 
+ 1905  cd ..
+ 1906  touch Explor.txt
+ 1907  open Explor.txt 
+ 1908  clear
+ 1909  cd ..
+ 1910  cd -
+ 1911  clear
+ 1912  ls
+ 1913  cd trial/
+ 1914  ls
+ 1915  cat original.txt 
+ 1916  grep [Hello from original file] [original.txt]
+ 1917  grep [Hello from original file] original.txt
+ 1918  grep [original file$] original.txt
+ 1919  grep [^original file] original.txt
+ 1920  grep [^,original file] original.txt
+ 1921  grep "original file$" original.txt
+ 1922  regex --help
+ 1923  man regex
+ 1924  clear
+ 1925  ls
+ 1926  cat last.txt 
+ 1927  grep "0{1}" first.txt 
+ 1928  grep "o{1}" first.txt 
+ 1929  grep "t{2}" first.txt 
+ 1930  grep "e$" first.txt 
+ 1931  grep ".e$" first.txt 
+ 1932  grep "ley$" first.txt 
+ 1933  clear
+ 1934  ;s
+ 1935  ls
+ 1936  cat original.txt 
+ 1937  grep "file$" original.txt 
+ 1938  grep "^Hello" original.txt 
+ 1939  grep "^hello" original.txt 
+ 1940  grep "d{2}" first.txt 
+ 1941  grep -E  "d{2}" first.txt 
+ 1942  grep -e "d{2}" first.txt 
+ 1943  grep -E "d{2}" first.txt 
+ 1944  grep -E "d{1}" first.txt 
+ 1945  grep -E "d" first.txt 
+ 1946  grep "d" first.txt 
+ 1947  grep -E "d{2}" original.txt 
+ 1948  grep -E "d{1}" original.txt 
+ 1949  grep -E "d{2}" original.txt 
+ 1950  grep -E "This" original.txt 
+ 1951  grep -E "this" original.txt 
+ 1952  clear
+ 1953  vim --version
+ 1954  sudo apt install vim
+ 1955  sudo apt install emacs
+ 1956  vim --version
+ 1957  emac --version
+ 1958  emacs --version
+ 1959  ls
+ 1960  vim original.txt 
+ 1961  vim
+ 1962  clear
+ 1963  ls
+ 1964  vim original.txt 
+ 1965  emacs
+ 1966  run python.py
+ 1967  python3 python.py 
+ 1968  clear
+ 1969  cd ..
+ 1970  cd -
+ 1971  cd-
+ 1972  ls
+ 1973  clear
+ 1974  ls
+ 1975  clear
+ 1976  cd Workspace/
+ 1977  cd Notes/'Notes/'Linux Journey'/
+ 1978  ln -s /home/dhairyasen/Workspace/Notes/Linux Journey/Grasshopper Grasshopper
+ 1979  mkdir grass
+ 1980  ln -s /home/dhairyasen/Workspace/Notes/Linux Journey/Grasshopper Grasshopper
+ 1981  ln -s /home/dhairyasen/Workspace/Notes/Linux Journey/Grasshopper grass
+ 1982  ls
+ 1983  cd grass/
+ 1984  ls
+ 1985  ls -l
+ 1986  cd ..
+ 1987  rm -rf grass/
+ 1988  ls
+ 1989  cd Workspace/trial/
+ 1990  ls
+ 1991  less history.txt 
+ 1992  echo < history > history.txt 
+ 1993  history | echo history.txt 
+ 1994  less history.txt 
+ 1995  history
+ 1996  clear
+ 1997  history | cat > history.txt 

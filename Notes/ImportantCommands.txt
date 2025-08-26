@@ -1,0 +1,14 @@
+IMPORTANT COMMANDS THAT ARE USEFUL FOR LINUX USAGE
+
+# Check Disk space usage
+$ df -h
+
+# Check RAM usage
+$ free -h
+
+# Disc space usage of directories and files in it
+$ du -h # Gives the usage of all sub directories ad=nd files
+$ du -sh # Gives the total size of the directory
+$ du -ah # Gives the size of files and directories simultaneously
+$ du -h --max-depth=1 /home # show only the first level of directories under /home, not everything inside recursively.
+

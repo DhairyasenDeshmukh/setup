@@ -1,0 +1,23 @@
+# THINGS TO DO AFTER INSTALLING DEBIAN
+
+# Packages update
+1. Search for Software and Updates and select first 4 tabs and close the application
+2. Inside terminal give these commands
+	sudo apt update
+	sudo apt upgrade
+3. Restart System
+
+# Improving performance
+1. Install preload using this command (This will improve the performance of the application used most)
+	sudo apt install preload
+
+
+# Install nvidia drivers by executing these commands in the terminal
+1. 	cat /etc/apt/sources.list
+2. (check for a line that says "main contrib non-free-firmware non-free")
+3. 	sudo apt update
+	sudo apt install nvidia-driver firmware-misc-nonfree
+4. Restart your computer
+
+# Install TLP for battery optimization
+1. sudo apt install tlp

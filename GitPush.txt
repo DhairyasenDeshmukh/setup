@@ -1,0 +1,53 @@
+# How to Push a File to GitHub Using Terminal (Debian 12 GNOME 43.9)
+
+Follow these steps to push any file into your GitHub repository using the terminal:
+
+Step 1: Install Git (if not already installed)
+---------------------------------------------
+$ sudo apt update
+$ sudo apt install git
+
+Step 2: Configure Git (only once)
+---------------------------------------------
+Set your name and email for commits:
+$ git config --global user.name "Your Name"
+$ git config --global user.email "youremail@example.com"
+
+Step 3: Clone Your GitHub Repository (if not already cloned)
+---------------------------------------------
+$ git clone https://github.com/your-username/your-repo-name.git
+$ cd your-repo-name
+
+*Replace 'your-username' and 'your-repo-name' with your GitHub details.*
+
+Step 4: Add or Move Your File Into the Repo Folder
+---------------------------------------------
+$ mv /path/to/your/file.txt .
+
+Step 5: Stage the File for Commit
+---------------------------------------------
+$ git add file.txt
+
+Step 6: Commit the File with a Message
+---------------------------------------------
+$ git commit -m "Add file.txt"
+
+Step 7: Push the File to GitHub
+---------------------------------------------
+$ git push origin main
+
+*Note: Use 'master' instead of 'main' if your branch is named 'master'.*
+
+Authentication Tip:
+---------------------------------------------
+If you're using HTTPS and GitHub asks for a username and password,
+use a Personal Access Token instead of your GitHub password.
+
+Generate a token from:
+https://github.com/settings/tokens
+
+Use your GitHub username and this token when prompted.
+
+Done! Your file is now uploaded to your GitHub repository.
+
+$ TOKEN: EXPIRY 20 AUG

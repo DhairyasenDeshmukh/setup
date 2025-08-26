@@ -1,0 +1,160 @@
+Linux Practical Commands Cheat Sheet
+
+Each section includes the command, purpose, and 2-3 bullet points explaining the concept.
+
+---
+
+26. Create a file and add lines
+Command: `echo -e "line1\nline2\nline3" > sample.txt`
+- Creates a text file and writes multiple lines.
+- `>` overwrites file if it exists.
+- `\n` inserts new lines.
+
+27. Create directory structure
+Command: `mkdir -p /data/raw/2023`
+- `-p` creates parent directories if they don’t exist.
+- Useful for creating nested directories in one step.
+
+28. Copy file
+Command: `cp /home/user/file.txt /tmp/`
+- Copies file from source to destination.
+- Does not remove the original.
+
+29. Rename file
+Command: `mv oldname.txt newname.txt`
+- Moves or renames files.
+- Can also move files between directories.
+
+30. Display file with line numbers
+Command: `nl sample.txt`
+- Shows each line with a number.
+- Useful for debugging or reference.
+
+31. Append a line without opening
+Command: `echo "new line" >> sample.txt`
+- `>>` appends instead of overwriting.
+- Quick way to add text programmatically.
+
+32. Show first 10 & last 5 lines
+Command: `head -n 10 file.txt` & `tail -n 5 file.txt`
+- `head` shows the first N lines.
+- `tail` shows the last N lines.
+
+33. Extract 2nd column from CSV
+Command: `cut -d',' -f2 file.csv`
+- `-d','` sets comma as delimiter.
+- `-f2` selects the 2nd column.
+
+35. Sort CSV by column 3
+Command: `sort -t',' -k3 file.csv`
+- `-t','` sets delimiter.
+- `-k3` sorts by 3rd column.
+
+36. Replace word in file
+Command: `sed -i 's/error/warning/g' logfile.txt`
+- `-i` edits file in place.
+- `g` replaces all occurrences in a line.
+
+38. Show disk usage of directories
+Command: `du -h --max-depth=1 /home`
+- `-h` human-readable.
+- Summarizes size per directory.
+
+39. Check disk space & RAM
+Command: `df -h` & `free -h`
+- `df` shows filesystem disk usage.
+- `free` shows memory usage.
+
+40. Create & extract tar archive
+Commands: `tar -cvf archive.tar folder/` & `tar -xvf archive.tar`
+- `c` = create, `v` = verbose, `f` = file.
+- `x` = extract.
+
+41. Compress using zip & unzip
+Commands: `zip -r archive.zip folder/` & `unzip archive.zip`
+- `-r` = recursive.
+- Works for directories and files.
+
+44. Display running processes of current user
+Command: `ps -u $USER`
+- Lists processes owned by current user.
+- Useful for monitoring or debugging.
+
+45. Count lines containing 'failed'
+Command: `grep -c 'failed' logfile.txt`
+- `-c` counts matching lines.
+- `grep` searches text.
+
+46. Cron job every 5 minutes
+Command: `*/5 * * * * echo "Hello Data Engineering" >> ~/cron_hello.log`
+- `*/5` = every 5 minutes.
+- Redirect output to log for record.
+
+47. Display path & environment variables
+Command: `pwd` & `printenv`
+- `pwd` = current working directory.
+- `printenv` shows all environment variables.
+
+48. Check permissions of all files in /etc
+Command: `ls -l /etc`
+- `-l` gives detailed info: owner, group, permissions.
+- Helps in security and management.
+
+49. Create symbolic link
+Command: `sudo ln -s /usr/bin/python3 /usr/bin/python`
+- `-s` = symbolic link.
+- Lets you call python3 using `python`.
+
+50. Print all CSV files with >10 lines
+Command: `for f in *.csv; do [ $(wc -l < $f) -gt 10 ] && echo $f; done`
+- Loops through CSV files.
+- Prints only files with more than 10 lines.
+
+51. Create user with home directory
+Command: `sudo useradd -m -s /bin/bash data_eng_user`
+- `-m` creates home directory.
+- `-s` sets default shell.
+
+52. Add user to sudoers
+Command: `sudo usermod -aG sudo data_eng_user`
+- Adds user to sudo group.
+- Verify with `id data_eng_user` or `sudo whoami`.
+
+54. Change owner of directory
+Command: `sudo chown data_eng_user /home/dhairyasen/OUTPUTS/opt/data_eng`
+- `-R` optional for recursive.
+- Transfers ownership to another user.
+
+43. Change owner & group of a file
+Command: `sudo chown dataeng:engineers /path/to/file`
+- Changes both owner and group.
+- `-R` for directories.
+
+61. Find all .log files recursively
+Command: `find /var/log -type f -name "*.log"`
+- `-type f` = files only.
+- Searches recursively.
+
+62. Display number of lines, words, characters
+Command: `wc /etc/passwd`
+- Outputs: lines, words, characters.
+
+63. Replace 'root' with 'admin' and save new file
+Command: `sed 's/root/admin/g' testfile.txt > testfile_updated.txt`
+- Does not modify original.
+- `g` = all occurrences.
+
+70. Cron job daily at 5 AM
+Command: `0 5 * * * /home/dhairyasen/backup.sh >> /home/dhairyasen/backup.log 2>&1`
+- `0 5` = 5:00 AM.
+- Logs both stdout and stderr.
+
+71. Display processes sorted by memory
+Command: `ps aux --sort=-%mem`
+- Shows highest memory-consuming processes first.
+- `ps aux` = all processes.
+
+72. Cron job every 5 minutes
+Command: `*/5 * * * * echo "Hello Data Engineering" >> ~/cron_hello.log`
+- Logs every 5 minutes.
+- Useful for repeated tasks.

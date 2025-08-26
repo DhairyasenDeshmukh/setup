@@ -1,0 +1,6 @@
+ALL THE COMMANDS I FOUND WHILE EXPLORING LINUX:
+
+# Working with text
+Searching text → using grep or egrep.
+Replacing text → using sed.
+Filtering & extracting data → using awk.

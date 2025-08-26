@@ -1,0 +1,11 @@
+# CONKY INTERNET SPEED
+
+Inside the .conf file of the conky
+Replace the original network lines with this
+
+${offset 172}${voffset 8}${font Abel:size=8}${color}↓Down: ${downspeed enp0s3} KB/s
+${offset 172}${voffset 3}${downspeedgraph enp0s3 20,100 5105DB FF1493}
+${offset 172}${voffset -2}${font Abel:size=8}${color}↑Up:   ${upspeed enp0s3} KB/s
+${offset 172}${voffset 3}${upspeedgraph enp0s3 20,100 5105DB FF1493}
+
+Adjust the offset and font according to the conky you are editing.

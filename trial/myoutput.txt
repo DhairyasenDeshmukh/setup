@@ -1,0 +1,28 @@
+total 2012
+-rw-r--r--  1 root              root              71985 Jul 26 10:59 alternatives.log
+drwxr-xr-x  2 root              root               4096 Jul 26 10:58 apt
+-rw-------  1 root              root               3225 Jul 26 10:55 boot.log
+-rw-------  1 root              root              11324 Jul 26 10:55 boot.log.1
+-rw-------  1 root              root              24469 Jul 22 08:37 boot.log.2
+-rw-------  1 root              root               9742 Jul 18 10:24 boot.log.3
+-rw-------  1 root              root             653866 Jul 16 11:59 boot.log.4
+-rw-rw----  1 root              utmp               1536 Jul 14 12:02 btmp
+drwxr-xr-x  2 root              root               4096 Jul 26 10:55 cups
+-rw-r--r--  1 root              root            1051548 Jul 26 10:59 dpkg.log
+-rw-r--r--  1 root              root                  0 Jul  8 19:58 faillog
+-rw-r--r--  1 root              root               5998 Jul 10 14:01 fontconfig.log
+drwx--x--x  2 root              Debian-gdm         4096 Jul  8 20:37 gdm3
+drwxr-xr-x  3 root              root               4096 Jul  8 20:37 installer
+drwxr-sr-x+ 3 root              systemd-journal    4096 Jul  8 20:37 journal
+-rw-rw-r--  1 root              utmp                  0 Jul  8 19:58 lastlog
+-rw-------  1 root              root              19880 Jul 26 10:55 preload.log
+drwx------  2 root              root               4096 Jul  8 19:58 private
+lrwxrwxrwx  1 root              root                 39 Jul  8 19:58 README -> ../../usr/share/doc/systemd/README.logs
+drwx------  2 speech-dispatcher root               4096 Nov 25  2022 speech-dispatcher
+-rw-------  1 root              root                569 Jul 13 18:27 vboxadd-install.log
+-rw-r--r--  1 root              root                155 Jul 13 18:27 vboxadd-setup.log
+-rw-r--r--  1 root              root                155 Jul 13 18:25 vboxadd-setup.log.1
+-rw-r--r--  1 root              root                155 Jul  9 15:21 vboxadd-setup.log.2
+-rw-------  1 root              root                  1 Jul 13 18:26 vboxadd-uninstall.log
+-rw-r--r--  1 root              root               1591 Jul  8 20:33 vboxpostinstall.log
+-rw-rw-r--  1 root              utmp             120192 Jul 26 10:57 wtmp

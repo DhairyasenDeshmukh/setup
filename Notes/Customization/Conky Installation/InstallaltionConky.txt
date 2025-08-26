@@ -1,0 +1,27 @@
+# INSTALLATION OF CONKY
+
+All this process in the terminal should be done as the user
+
+# Install Dependencies
+1. sudo apt install conky-all playerctl
+2. sudo apt install curl jq
+
+# Move the Conky folder to .config folder
+3.mv name_of_folder /home/.config/conky/
+
+# Make the scripts exeecutable (Do it as root user)
+- When inside scripts folder of the conky
+4. chmod +x /*
+- When inside the conky folder where start.sh file is present
+5. chmod +x /start.sh
+
+# Inside the conky main folder
+6. conky -c nameofthefile.conf
+
+THIS SHOULD RUN THE CONKY
+FOR ANY FILES THAT NEEDED TO BE EDIT 
+Png -> .conf file
+Font -> .conf file
+Rings -> .lua
+
+

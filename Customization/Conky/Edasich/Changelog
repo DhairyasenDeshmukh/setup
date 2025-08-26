@@ -1,0 +1,40 @@
+Changelog
+------------------------------
+Edasich Dark - Conky Theme
+[ Draco Themes Pack ] 
+
+by Closebox73
+
+Social
+X		: https://twitter.com/closebox73
+Discord	: https://discord.com/users/1115644269802311750
+Github	: https://github.com/closebox73
+Pling	: https://pling.com/u/closebox73x
+------------------------------
+
+
+v2.3
+date : 13 Dec 2023
+-	Add line draw_blended in conky config due transparent image issue in Gnome & KDE
+-	New weather.sh
+-	New weather-icon-text.sh
+-	Change some font 
+-	Some minor change
+
+
+
+v1.8
+date : 08 Feb 2023
+-	Add override_utf8_locale line
+-	Add License
+-	Add Changelog file
+-	A few changes to the script
+-	Minimize archive size
+
+
+v1.0
+date : 02 Jun 2022
+-	Initial release
+
+
+

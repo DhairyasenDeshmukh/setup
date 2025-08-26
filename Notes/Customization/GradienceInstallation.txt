@@ -1,0 +1,28 @@
+Step 1: Install Required System Packages
+sudo apt update
+sudo apt install flatpak gnome-software-plugin-flatpak xdg-desktop-portal xdg-desktop-portal-gtk
+
+Step 2: Add Flathub Repository (User Scope)
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+Step 3: Install Gradience (As User)
+flatpak install --user flathub com.github.GradienceTeam.Gradience
+
+Step 4: Restart User Session (As rootuser)
+sudo apt update
+
+Step 5: Fix Flatpak Permissions (for Themes to Work)
+flatpak override --user --filesystem=~/.themes
+
+Step 6: Run Gradience (As User)
+flatpak run com.github.GradienceTeam.Gradience
+
+Fix Portal / Instance erros
+systemctl --user restart xdg-desktop-portal.service
+systemctl --user restart xdg-desktop-portal-gtk.service
+
+NOTES:
+
+- Never run flatpak run as root (causes DBus/session errors).
+- Gradience only themes GTK4/libadwaita apps.
+- Combine it with Tweaks + User Themes extension to theme GTK3/Shell.

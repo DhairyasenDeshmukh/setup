@@ -1,0 +1,16 @@
+Steps to Install Spotify on Debian (using Flatpak):
+
+1. Install Flatpak (if not already installed)
+   sudo apt update
+   sudo apt install flatpak -y
+
+2. Add the Flathub repository (Spotify is available there)
+   sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+3. Install Spotify from Flathub
+   flatpak install flathub com.spotify.Client -y
+
+4. Run Spotify
+   flatpak run com.spotify.Client
+
+Note: You may need to log out and log back in after installing Flatpak for it to fully integrate with your system menus.

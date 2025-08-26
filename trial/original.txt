@@ -1,0 +1,8 @@
+1 Hello from original file
+2 This line is added in original file
+3 This line is added in hardlink file
+4 Hello from original file
+5 Hello from original file
+6 This line is added in original file
+7 This line is added in hardlink file
+8 Hello from original file

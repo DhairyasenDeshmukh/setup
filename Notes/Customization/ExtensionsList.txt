@@ -1,0 +1,48 @@
+# ENTENSIONS LIST
+
+EXTENSIONS MANAGER:
+
+Name				Author
+Blur my Shell			blur-my-shell@auntex
+Burn My Windows			burn-my-windows@schneegans.github.com
+Clipboard Indicator		clipboard-indicator@Dieg0js.github.io
+Color Picker			color-picker@tuberry
+Compiz windows effect		compiz-windows-effect@herms@83.github.com
+Coverflow Alt-Tab		CoverflowAltTab@palatis.blogspot.com
+Dash to Dock			dash-to-dock@micxgx.gmail.com
+Dash to Dock Animator		dash-animator@icedman.github.com
+Forge				forge@jmmaranan.com
+Gnome 4x UI Improvements	gnome-ui-tune@itstime.tech
+Logo Menu			logomenu@aryan_k
+Open Bar			openbar@neuromorph
+OpenWeather			openweather-extension@jenslody.de
+Todo.txt			todo.txt@bart.libert.gmail.com
+Vitals@CoreCoding.com
+
+MANUALLY INSTALLED
+
+Activities Filled Pill
+1. Download and files from this repository
+   https://gitlab.gnome.org/-/project/1206/uploads/4d8e57447a2b2bfb4bf281d7c70bf0cb/activities-filled-pill_verdre.zip
+
+2. Extract the folder and paste it inside this directory
+   /home/dhairyasen/.local/share/gnome-shell/extensions
+   
+3. Change the supported shell version to match nearest to yours in the metadata.json file. (If your shell version is 43.9, then add the shell version 43)
+
+4. Logout and login back in or simply reboot.
+
+5. In the metadata.json file look for the "uid"
+
+6. In Terminal insert this command
+   gnome-extensions enable uid
+   
+   THIS CHANGE THE ACTIVITY BUTTON
+  
+
+Installing ChatGpt on Top Bar panel
+
+Execute these commands in the terminal one by one.
+1. git clone https://github.com/wolfiediscord/gnome-ai-chat-menu.git
+2. cd gnome-ai-chat-menu
+3. make install

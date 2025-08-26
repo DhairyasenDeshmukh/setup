@@ -1,0 +1,40 @@
+Changelog
+--------------------------------------------------------
+Betelgeuse - Conky Theme
+[ Orion Themes Pack ] 
+
+by Closebox73
+
+Social
+X		: https://twitter.com/closebox73
+Discord	: https://discord.com/users/1115644269802311750
+Github	: https://github.com/closebox73
+Pling	: https://pling.com/u/closebox73x
+--------------------------------------------------------
+
+v2.6
+date : 26 Aug 2024
+-	Add line draw_blended in conky config due transparent image issue in Gnome & KDE
+-	Add text.lua script for time text
+-	Some minor change
+-	Changing font from Josefin Sans to be Quicksand
+-	Add License & Donate link
+
+
+v2.1
+date : 15 Oct 2023
+-	New weather.sh
+-	Add Fahrenheit version
+-	Some minor change
+
+
+v1.7
+date : 29 Oct 2022
+-	Add override_uutf8_locale line
+-	Minimize archieve size
+-	Add Bebas Neue font variat
+
+
+v1.0
+date : 13 Aug 2022
+-	Initial release

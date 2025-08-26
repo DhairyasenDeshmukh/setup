@@ -1,0 +1,19 @@
+# Open weather.sh file
+- The kines you want to look for are
+"City ID"
+"API Key"
+
+# For API Key head to
+  https://home.openweathermap.org/api_key
+
+# You will find City ID there
+
+# OPEN weather.sh FILE WITH NANO EDITOR IN TERMINAL
+  Replace the ID & API key with yours and save it
+ 
+# Then tye this command to check if it is working
+  cat ~/.cache/weather.json
+  
+# Refresh the conky or restart the shell
+
+THIS SHOULD UPDATE THE CONKY WEATHER
